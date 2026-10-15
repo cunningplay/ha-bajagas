@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Precio del gas LP de BajaGas",
+        "description": "Elige la ciudad cuyo precio por litro de gas LP de BajaGas quieres seguir.",
+        "data": {
+          "city": "Ciudad"
+        },
+        "data_description": {
+          "city": "La ciudad de servicio de BajaGas para el precio por litro."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No se pudo acceder a la página de precios de BajaGas. Inténtalo más tarde."
+    },
+    "abort": {
+      "already_configured": "Esta ciudad ya está configurada."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Consulta",
+        "data": {
+          "scan_interval": "Revisar el precio cada (horas)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "price": {
+        "name": "Precio del gas LP"
+      }
+    }
+  }
+}

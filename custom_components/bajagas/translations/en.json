@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "BajaGas LP price",
+        "description": "Pick the city whose BajaGas per-liter LP price to track.",
+        "data": {
+          "city": "City"
+        },
+        "data_description": {
+          "city": "The BajaGas service city for the per-liter price."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the BajaGas price page. Try again later."
+    },
+    "abort": {
+      "already_configured": "This city is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Polling",
+        "data": {
+          "scan_interval": "Check the price every (hours)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "price": {
+        "name": "LP price"
+      }
+    }
+  }
+}

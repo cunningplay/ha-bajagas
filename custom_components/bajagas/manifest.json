@@ -1,0 +1,12 @@
+{
+  "domain": "bajagas",
+  "name": "BajaGas LP price",
+  "codeowners": ["@cunningplay"],
+  "config_flow": true,
+  "dependencies": ["recorder"],
+  "documentation": "https://github.com/cunningplay/ha-bajagas",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/cunningplay/ha-bajagas/issues",
+  "version": "0.1.0"
+}
