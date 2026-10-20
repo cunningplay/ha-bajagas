@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/cunningplay/ha-bajagas/main/custom_components/bajagas/brand/icon.png" alt="BajaGas" width="120"></p>
+
 # Precio del gas LP de BajaGas para Home Assistant
 
 **Español** · [English](#bajagas-lp-price-for-home-assistant)
