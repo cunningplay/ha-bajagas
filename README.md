@@ -86,10 +86,13 @@ value the gas or a refill.
 
 ## Install (HACS)
 
-1. HACS → Integrations → ⋮ → Custom repositories → add this repository as an
-   *Integration*.
-2. Install **BajaGas LP price**, then restart Home Assistant.
-3. Settings → Devices & services → Add integration → **BajaGas LP price**.
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=cunningplay&repository=ha-bajagas&category=integration)
+
+1. In HACS, search for **BajaGas LP price** and download it, then restart Home Assistant.
+2. Settings → Devices & services → Add integration → **BajaGas LP price**.
+
+Older HACS versions that don't list it yet: HACS → ⋮ → Custom repositories → add
+`https://github.com/cunningplay/ha-bajagas` as an *Integration*, then follow the steps above.
 
 Manual install: copy `custom_components/bajagas` into your
 `config/custom_components/`.
